@@ -121,7 +121,16 @@ export default function EstudianteInicio() {
             <p><strong>Ciclo:</strong> {perfil.ciclo}</p>
             <p><strong>Habilidades:</strong> {perfil.habilidades?.join(', ')}</p>
             <br />
-            <Button onClick={() => { localStorage.clear(); navigate('/'); }} variant="normal">Cerrar sesión</Button>
+          <Button
+            onClick={() => {
+              localStorage.clear();
+              window.location.href = '/';
+            }}
+            variant="normal"
+          >
+            Cerrar sesión
+          </Button>
+
           </HelpPanel>
         }
         content={

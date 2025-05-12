@@ -5,6 +5,7 @@ import EstudianteLogin from './EstudianteLogin.jsx';
 import EstudianteInicio from './EstudianteInicio';
 import ConvocanteLogin from './ConvocanteLogin.jsx';
 import ConvocanteInicio from './ConvocanteInicio.jsx';
+import ConvocantePerfil from './ConvocantePerfil'
 import EstudiantePerfil from './EstudiantePerfil';
 import EstudianteSeguimiento from './EstudianteSeguimiento.jsx';
 import SeleccionRol from './SeleccionRol';
@@ -27,6 +28,7 @@ function App() {
         <Route path="/estudiante" element={<EstudianteInicio />} />
         <Route path="/login-convocante" element={<ConvocanteLogin />} />
         <Route path="/convocante" element={<ConvocanteInicio />} />
+        <Route path="/convocante-perfil" element={<ConvocantePerfil />} />
         <Route path="/estudiante-perfil" element={<EstudiantePerfil />} />
         <Route path="/estudiante-seguimiento" element={<EstudianteSeguimiento />} />
         <Route path="/seleccion-rol" element={<SeleccionRol />} />

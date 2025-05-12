@@ -1,5 +1,6 @@
 // ConvocantePerfil.jsx
 import React from 'react';
+import ConvocanteLayout from './ConvocanteLayout';
 import {
   Container,
   Header,
@@ -11,7 +12,6 @@ import {
   Textarea,
   StatusIndicator
 } from '@cloudscape-design/components';
-import ConvocanteLayout from './ConvocanteLayout';
 
 export default function ConvocantePerfil() {
   const perfil = {
