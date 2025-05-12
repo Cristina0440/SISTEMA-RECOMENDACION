@@ -12,7 +12,8 @@ export default function ConvocanteLayout({ children, breadcrumb, perfil, mensaje
   const navigationItems = [
     { type: 'link', text: 'Inicio', href: '/convocante' },
     { type: 'link', text: 'Mi Perfil', href: '/convocante-perfil' },
-    { type: 'link', text: 'Publicar Proyecto', href: '/convocante-nuevo-proyecto' }
+    { type: 'link', text: 'Publicar Proyecto', href: '/convocante-nuevo-proyecto' },
+    { type: 'link', text: 'Estudiantes sugeridos', href: '/convocante-estudiantes' }
     
   ];
 
