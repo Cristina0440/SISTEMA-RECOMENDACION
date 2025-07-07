@@ -1,12 +1,14 @@
+// main.jsx
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
+import { ApolloProvider } from '@apollo/client';
+import client from './api/client.js'; // tu configuración de Apollo
 
-// Importa tus estilos
-import './index.css';          // Estilos base (aunque no uses Tailwind)
-
-createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <ApolloProvider client={client}>
+      <App />
+    </ApolloProvider>
   </React.StrictMode>
 );

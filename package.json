@@ -23,7 +23,10 @@
     "vite": "^6.2.0"
   },
   "dependencies": {
+    "@apollo/client": "^3.13.8",
     "@cloudscape-design/components": "^3.0.940",
+    "graphql": "^16.11.0",
+    "js-cookie": "^3.0.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.5.0",
