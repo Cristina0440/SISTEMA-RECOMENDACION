@@ -9,7 +9,7 @@ import Profile from './components/Profile.jsx';
 import Logout from './components/Logout.jsx';
 
 // COMPONENTES ESTUDIANTE
-
+import EstudianteLogin from './EstudianteLogin.jsx';
 import EstudianteInicio from './EstudianteInicio.jsx';
 import EstudiantePerfil from './components/EstudiantePerfil.jsx';
 import EstudianteSeguimiento from './EstudianteSeguimiento.jsx';
